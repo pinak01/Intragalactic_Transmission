@@ -109,10 +109,11 @@ APmag = -4.339 ,Sbrt = 1.374 , delta = 0.81455566256830 ,deldot = 12.8800594, SO
 Clone the repository and install the required dependencies using pip:
 
 bash
+```
 git clone https://github.com/your-repository/intergalactic-data-transmission.git
 cd intergalactic-data-transmission
 pip install -r requirements.txt
-
+```
 ## Configuration
 
 - *API Key*: You'll need a valid Gemini API key (from Google Cloud) for generating responses using the Gemini model. Place it in the config.json file or configure it directly in the code using genai.configure(api_key="YOUR_API_KEY").
