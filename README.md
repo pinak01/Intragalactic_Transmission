@@ -122,9 +122,7 @@ pip install -r requirements.txt
 
 - *Constants and Coefficients*: Adjust the coefficients (k1, k2, k3, etc.) and constants (c1, c2, c3, etc.) in the configuration file for the transmission error formula. These values may require empirical testing and tuning based on the results.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
