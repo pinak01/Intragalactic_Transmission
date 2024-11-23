@@ -21,8 +21,8 @@ The project uses real-time ephemeris data from the *Jet Propulsion Laboratory (J
   ## The formula used to estimate the likelihood of transmission errors is:
 
   
-  Pe = k1 * e^(-APmag / c1) + k2 * (S_brt / C2) + k3 * (delta / C3)^2 + k4 * |deldot| + k5 * sin(SOT) + k6 * |\r|+ k7*cos(STO)
-  
+  ```Pe = k1 * e^(-APmag / c1) + k2 * (S_brt / C2) + k3 * (delta / C3)^2 + k4 * |deldot| + k5 * sin(SOT) + k6 * |\r|+ k7*cos(STO)```
+
 
   - *k*: Coefficients representing the sensitivity of the error probability to each parameter.
   - *C*: Constants to normalize the values of each parameter for better scalability and accuracy.
